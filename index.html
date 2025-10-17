@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d7cd3fe964.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shorcut icon" type="image/x-icon" href="./assets/img/OIG3.3.ico">
+
+    <title>CICVIA 2025</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#header" data-bs-offset="86">
+    <!--HEADER: -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/img/OIG3.3.png" height="60px" width="60px">CICVIA
+                2025</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carrusel">El Evento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ponentes">Ponentes principales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lugarfechas">Lugar y fechas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#calendario">Calendario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inscribe">Inscribe a tu equipo</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <a class="btn btn-outline-success" href="#modalCompra" data-bs-toggle="modal" type="modal"
+                        type="submit">Comprar Entradas</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--FIN DEL HEADER-->
+
+    <main id="main">
+        <!-- EL EVENTO:-->
+        <div class="container-fluid">
+            <div id="carrusel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/c1.jpg" class="d-block w-100" alt="Congreso 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/c2.jpg" class="d-block w-100" alt="Congreso 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/c3.jpeg" class="d-block w-100" alt="Congreso 3">
+                    </div>
+                </div>
+
+                <!--Overlay del evento:-->
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 offset-md-6 text-center text-end mt-4">
+                                <h2>CICVIA - Congreso Internacional de Computación, Videojuegos e Inteligencia
+                                    Artificial, Cancún 2025</h2>
+                                <br>
+                                <p class="d-none d-lg-block">Del 15 al 18 de noviembre de 2025, Cancún será sede del
+                                    mayor evento de Tecnología de Latinoamérica. CICVIA reunirá a la más grande y
+                                    talentosa comunidad Friky de la que se tenga registro, con 4 días llenos de
+                                    aprendizaje, diversión, entretenimiento y superación. Después de este evento, nada
+                                    será igual.</p>
+                                <a href="#inscribe" class="btn btn-outline-light mt-2" role="button"
+                                    aria-label="Inscribir equipo">Quiero inscribir a mi equipo</a>
+                                <a href="#modalCompra" data-bs-toggle="modal" class="btn btn-success mt-2" role="button"
+                                    aria-label="Comprar Entradas">Comprar Entradas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Fin del Overlay-->
+            </div>
+        </div>
+        <!-- Fin del Evento-->
+
+        <!-- PONENTES: -->
+        <section id="ponentes" class="mt-4 mb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center text-uppercase">
+                        <h3>ponentes principales:</h3>
+                    </div>
+                </div>
+
+                <div class="row pb-4 pt-4 align-items-center">
+                    <div class="col-lg-4 col-md-6 col-12 pb-4 pt-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/A.jpg" class="card-img-top" alt="Shigeru Miyamoto">
+                            <div class="card-body">
+                                <h5 class="card-title">Shigeru Miyamoto</h5>
+                                <div class="badges pb-3">
+                                    <span class="badge bg-success">Videojuegos</span>
+                                    <span class="badge bg-danger">Consolas</span>
+                                </div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
+                                    veritatis molestias labore incidunt similique nobis saepe velit totam voluptatibus
+                                    dolor corrupti veniam est voluptas placeat delectus neque numquam quaerat.
+                                    Consequatur..</p>
+                                <a href="https://es.wikipedia.org/wiki/Shigeru_Miyamoto" target="_blank"
+                                    class="btn btn-primary">Biografia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 pb-4 pt-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/B.jpg" class="card-img-top" alt="Blanca Treviño">
+                            <div class="card-body">
+                                <h5 class="card-title">Blanca Treviño</h5>
+                                <div class="badges pb-3">
+                                    <span class="badge bg-primary">Software</span>
+                                    <span class="badge bg-warning">Tecnologia</span>
+                                </div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
+                                    veritatis molestias labore incidunt similique nobis saepe velit totam voluptatibus
+                                    dolor corrupti veniam est voluptas placeat delectus neque numquam quaerat.
+                                    Consequatur..</p>
+                                <a href="https://es.wikipedia.org/wiki/Blanca_Trevi%C3%B1o" target="_blank"
+                                    class="btn btn-primary">Biografia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 pb-4 pt-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/C.webp" class="card-img-top" alt="Hideo Kojima">
+                            <div class="card-body">
+                                <h5 class="card-title">Hideo Kojima</h5>
+                                <div class="badges pb-3">
+                                    <span class="badge bg-success">Videojuegos</span>
+
+                                </div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
+                                    veritatis molestias labore incidunt similique nobis saepe velit totam voluptatibus
+                                    dolor corrupti veniam est voluptas placeat delectus neque numquam quaerat.
+                                    Consequatur..</p>
+                                <a href="https://es.wikipedia.org/wiki/Hideo_Kojima" target="_blank"
+                                    class="btn btn-primary">Biografia</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-4 pt-4 align-items-center">
+                    <div class="col-lg-4 col-md-6 col-12 pb-4 pt-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/D.jpg" class="card-img-top" alt="Sam Haltman">
+                            <div class="card-body">
+                                <h5 class="card-title">Sam Haltman</h5>
+                                <div class="badges pb-3">
+                                    <span class="badge bg-success">Inteligencia Artificial</span>
+                                    <span class="badge bg-danger">Tecnologia</span>
+                                </div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
+                                    veritatis molestias labore incidunt similique nobis saepe velit totam voluptatibus
+                                    dolor corrupti veniam est voluptas placeat delectus neque numquam quaerat.
+                                    Consequatur..</p>
+                                <a href="https://es.wikipedia.org/wiki/Sam_Altman" target="_blank"
+                                    class="btn btn-primary">Biografia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 pb-4 pt-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/E.jpg" class="card-img-top" alt="Lisa Su">
+                            <div class="card-body">
+                                <h5 class="card-title">Lisa Su</h5>
+                                <div class="badges pb-3">
+                                    <span class="badge bg-primary">Hardwarer</span>
+                                    <span class="badge bg-warning">Tecnologia</span>
+                                </div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
+                                    veritatis molestias labore incidunt similique nobis saepe velit totam voluptatibus
+                                    dolor corrupti veniam est voluptas placeat delectus neque numquam quaerat.
+                                    Consequatur..</p>
+                                <a href="https://es.wikipedia.org/wiki/Su_Lisa" target="_blank"
+                                    class="btn btn-primary">Biografia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 pb-4 pt-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/F.jpg" class="card-img-top" alt="Jensen Huang">
+                            <div class="card-body">
+                                <h5 class="card-title">Jensen Huang</h5>
+                                <div class="badges pb-3">
+                                    <span class="badge bg-success">Hardware</span>
+
+                                </div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
+                                    veritatis molestias labore incidunt similique nobis saepe velit totam voluptatibus
+                                    dolor corrupti veniam est voluptas placeat delectus neque numquam quaerat.
+                                    Consequatur..</p>
+                                <a href="https://es.wikipedia.org/wiki/Jensen_Huang" target="_blank"
+                                    class="btn btn-primary">Biografia</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-4 pt-4 align-items-center">
+                    <div class="col-lg-4 col-md-6 col-12 pb-4 pt-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/G.jpg" class="card-img-top" alt="Luisina de Paula">
+                            <div class="card-body">
+                                <h5 class="card-title">Luisina de Paula</h5>
+                                <div class="badges pb-3">
+                                    <span class="badge bg-success">Inteligencia Artificial</span>
+                                    <span class="badge bg-danger">Tecnologia</span>
+                                </div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
+                                    veritatis molestias labore incidunt similique nobis saepe velit totam voluptatibus
+                                    dolor corrupti veniam est voluptas placeat delectus neque numquam quaerat.
+                                    Consequatur..</p>
+                                <a href="https://www.instagram.com/luisinaadp/?hl=es-la" target="_blank"
+                                    class="btn btn-primary">Biografia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 pb-4 pt-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/H.jpeg" class="card-img-top" alt="Jeff Bezos">
+                            <div class="card-body">
+                                <h5 class="card-title">Jeff Bezos</h5>
+                                <div class="badges pb-3">
+                                    <span class="badge bg-primary">Hardwarer</span>
+                                    <span class="badge bg-warning">Tecnologia</span>
+                                </div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
+                                    veritatis molestias labore incidunt similique nobis saepe velit totam voluptatibus
+                                    dolor corrupti veniam est voluptas placeat delectus neque numquam quaerat.
+                                    Consequatur..</p>
+                                <a href="https://es.wikipedia.org/wiki/Jeff_Bezos" target="_blank"
+                                    class="btn btn-primary">Biografia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 pb-4 pt-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/I.jpg" class="card-img-top" alt="El Jersa">
+                            <div class="card-body">
+                                <h5 class="card-title">El Jersa</h5>
+                                <div class="badges pb-3">
+                                    <span class="badge bg-success">Hardware</span>
+
+                                </div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
+                                    veritatis molestias labore incidunt similique nobis saepe velit totam voluptatibus
+                                    dolor corrupti veniam est voluptas placeat delectus neque numquam quaerat.
+                                    Consequatur..</p>
+                                <a href="https://www.instagram.com/gemitryxx/?hl=es-la" target="_blank"
+                                    class="btn btn-primary">Biografia</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fin de Ponentes-->
+
+        <!--Lugar y fechas:-->
+        <section id="lugarfechas">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 ps-3 pe-3 pt-3 pb-3">
+                        <img src="./assets/img/cancun.webp" alt="Cancun">
+                    </div>
+                    <div class="col-12 col-md-6 ps-3 pe-3 pt-3 pb-3">
+                        <h3>Lugar y fechas:</h3>
+                        <h4>Cancún, Quintana Roo, México</h4>
+                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit asperiores
+                            in eius veniam, ad placeat, totam cumque sequi, atque pariatur sapiente cum reiciendis
+                            quibusdam sunt obcaecati earum facilis dicta accusamus?</p>
+                        <a class="btn btn-success" href="https://www.turismocancun.mx/" target="_blank">Conoce
+                            más...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fin del lugar y fechas-->
+
+        <!--Calendario:-->
+        <section id="calendario">
+            <div class="container">
+                <div class="row pt-4 pb-4">
+                    <div class="col text-center text-uppercase">
+                        <h3> programa general de eventos:</h3>
+                    </div>
+                </div>
+                <div class="table-responsive pt-4 pb-4">
+                    <table class="table table-bordered table-hover table-striped">
+                        <thead>
+                            <tr class="table-dark">
+                                <th>15 de Noviembre</th>
+                                <th>16 de Noviembre</th>
+                                <th>17 de Noviembre</th>
+                                <th>18 de Noviembre</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>10:00 hrs. - Magna Inauguración <br><a data-bs-toggle="offcanvas"
+                                        href="#offcanvas">Detalles</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                                <td>Nombre del Evento <a href="#">Link del evento</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!--Fin de calendario-->
+
+        <!--Inscribe a tu equipo:-->
+        <section id="inscribe" class="pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h3 class="text-uppercase">Inscribe a tu equipo</h3>
+                        <h3 class="text-uppercase">a los mejores retos tecnologicos</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-8 offset-md-2 pt-4 text-center">
+                        Inscribe a tu equipo en las diversas competencias y <abbr
+                            title="Talleres, conferencias, retos, entrevistas y participaci[on en Reels"> eventos</abbr>
+                        intrrnacionales que se estarán llevando a cabo.
+                    </div>
+                </div>
+                <div class="row pt-4 pb-4">
+                    <div class="col-12 col-md-8 offset-md-2 pt-4">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12 col-sm-6 pb-1 pt-1">
+                                    <input type="text" class="form-control" placeholder="Nombre del Equipo" required>
+                                </div>
+                                <div class="form-group col-12 col-sm-6 pb-1 pt-1">
+                                    <input type="text" class="form-control" placeholder="Nombre del Lider del Equipo"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12 pb-1 pt-1">
+                                    <div class="form-group">
+                                        <textarea name="propuesta" class="form-control"
+                                            placeholder="Describe a tu equipo y la tecnología en la que sobresalen."
+                                            rows="15"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row pt-3 pb-3">
+                                <div class="offset-9 col-3 ">
+                                    <button type="button submit" class="btn btn-success btn-block">Enviar
+                                        propuesta</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fin de Inscribe a tu equipo-->
+
+
+    </main>
+
+    <!--FOOTER: -->
+    <footer id="footer" class="pt-4 pb-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-md"><a href="#">Prensa</a></div>
+                <div class="col-12 col-md"><a href="#">Preguntas Frecuentes</a></div>
+                <div class="col-12 col-md"><a href="#">Contacto</a></div>
+                <div class="col-12 col-md"><a href="#">¿Quiénes Somos?</a></div>
+                <div class="col-12 col-md"><a href="#">Mapa del sitio</a></div>
+            </div>
+            <div class="row text-center">
+                <div class="col pt-4 pb-4">
+                    <a href="#" data-bs-toggle="tooltip" title="Facebook" data-bs-placement="left"><i
+                            class="fa-brands fa-square-facebook fa-3x ps-3 pe-3"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" title="Instagram" data-bs-placement="bottom"><i
+                            class="fa-brands fa-square-instagram fa-3x ps-3 pe-3"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" title="TikTok" data-bs-placement="bottom"><i
+                            class="fa-brands fa-tiktok fa-3x ps-3 pe-3"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" title="X" data-bs-placement="bottom"><i
+                            class="fa-brands fa-square-x-twitter fa-3x ps-3 pe-3"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" title="Youtube" data-bs-placement="right"><i
+                            class="fa-brands fa-square-youtube fa-3x ps-3 pe-3"></i></a>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col pb-2 pt-4">
+                    <img src="./assets/img/logotec.png" alt="Logo ITSJ" width="75px" height="75px">
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col pb-2 pt-4">
+                    <p>&copy; 2025 - Tecnológico Nacional de México</p>
+                    <p>Reservados todos los derechos.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FIN DEL FOOTER-->
+
+
+    <!--Modal de compra:-->
+    <!-- Modal -->
+    <div class="modal fade" id="modalCompra" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" id="modalito">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Comprar Entradas</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Completa los siguientes datos para realizar tu compra:
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12 col-sm-6 pb-1 pt-1">
+                                <input type="text" class="form-control" placeholder="Nombre(s)" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-12 pb-1 pt-1">
+                                <input type="text" class="form-control" placeholder="Apellidos" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-12 pb-1 pt-1">
+                                <input type="email" class="form-control" placeholder="E-mail" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-12 pb-1 pt-1">
+                                <label for="select1">Número de entradas:</label>
+                                <select id="select1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-12 pb-1 pt-1">
+                                <label for="select2">Forma de pago:</label>
+                                <select id="select2">
+                                    <option>Tarjeta de crédito</option>
+                                    <option>Tarjeta de débito</option>
+                                    <option>Pay-pal</option>
+                                    <option>Depósito Bancario</option>
+                                    <option>Tienda de Conveniencia</option>
+                                    <option>Vales de despensa</option>
+                                    <option>Herman@</option>
+                                    <option>Riñón</option>
+                                    <option>Infonavit</option>
+                                    <option>Body-matic</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Proceder al pago</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Fin del modal de compra-->
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+
+   
+</body>
+
+<!--Offcanvas:-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">Magna Inauguración</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perspiciatis accusamus laudantium molestias
+        sunt
+        ipsa qui autem optio illum! Id possimus doloremque quos at. Praesentium error magnam repellat tempore cum?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque possimus voluptatibus quo nam facere ex odit a
+        nemo sed, esse voluptatum error, accusantium eligendi unde et? Dolores aut magni ipsum.
+    </div>
+    <br>
+    <h4>
+        <div class="badges pb-3">
+            <span class="badge bg-success pb-2">Hotel GRAND Cancún</span>
+            <span class="badge bg-info">10:00 hrs.</span>
+        </div>
+    </h4>
+
+</div>
+<!--Fin del Offcanvas-->
+
+</html>
